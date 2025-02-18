@@ -89,7 +89,7 @@ Y = sqrt(mag2 / enbw);
 ```
 or power spectral density:
 ```
-% Convert from power spectrum [V_rms^2] to linear spectral density [V_rms^2/Hz]
+% Convert from power spectrum [V_rms^2] to power spectral density [V_rms^2/Hz]
 Y = mag2 / enbw
 ```
 
