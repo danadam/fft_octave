@@ -105,3 +105,7 @@ FFT magnitude of `testlevels_2.flac`:
 
 FFT magnitude of 1 kHz tone at -20 dBFS using different window functions:
 ![window functions](examples/win_all.png)
+
+The `sin990.f64_44k.wav` file is a WAV file in 64-bit floating-point format. It contains 990.52734375 Hz tone, which ends up in the middle of a frequency bin for FFT sizes of powers of 2. The noise floor is below -300 dBFS but it starts showing the limits of precision.
+![sin990 f64](examples/sin990.f64_44k.png)
+![sin990 f64 zoom](examples/sin990.f64_44k.zoom.png)
